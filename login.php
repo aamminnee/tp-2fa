@@ -43,6 +43,7 @@ if (isset($_GET['error'])) {
         <div class="form-group">
             <label for="email">Email</label>
             <input type="text" id="email" name="email" required 
+                   value="user@test.fr"
                    placeholder="Votre email">
         </div>
         
@@ -50,6 +51,7 @@ if (isset($_GET['error'])) {
             <label for="password">Mot de passe</label>
             <div class="password-wrapper">
                 <input type="password" id="password" name="password" required 
+                       value="CessttttFormidableCeMDP"
                        placeholder="************">
             </div>
         </div>
